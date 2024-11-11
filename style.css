@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img__github, .img__ods{
+    width: 70px;
+}
+.title{
+    padding: 15px;
+}
+.sub__title{
+    text-align: center;
+    margin-top: 25px;
+    width: 60%;
+}
+.personal{
+    width: 16%;
+    margin-left: 105px;
+    padding: 8px;
+}
+.proyectos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.ods8{
+    display: flex;;
+    padding: 10px;
+}
+.colegio, .ods8{
+    width: 200px;
+    padding: 10px   ;
+   
+}
+
+.sub__primer__proyecto{
+    padding: 15px;
+    
+}
+
+.inicio{
+    display: flex;
+    box-shadow: 12px 12px 2px 1px rgba(39, 39, 54, 0.2);
+}
+li{
+    padding: 10px;
+    background-color:black ;
+    color: whitesmoke;
+    display: inline-block
+}
+.html{
+    background-color: orange;
+}
+.css{
+    background-color: blue;
+}
+.javas{
+    background-color: rgb(179, 179, 97);;
+}
+.python{
+    background-color: rgb(103, 197, 103);
+}
+.java{
+    background-color: gold;
+}
+
+.formulario{
+    display: block;
+    border: 1px solid black;
+}
+
+
+
+@media (max-width: 705px) {
+    .inicio{
+        
+        text-align: center;
+        display: block;
+    }
+    .sub__title{
+        margin-left: 100px;
+    }
+    .personal{
+        width: 150px;
+        margin-right: 80px;
+    }
+    .proyectos{
+        display: block;
+        justify-content: center;
+    }
+  }
+  
